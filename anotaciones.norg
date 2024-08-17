@@ -1,0 +1,27 @@
+* Diseño
+
+* Funcionalidad
+** Boton de elminacion
+** Titulo de la lista
+   Titulo que se pueda cambiar al toque
+** Elementos
+*** Recuadro para agregar
+*** Mensaje 
+*** Jerarquía
+*** Tiempo previsto
+*** Grab and move
+    Agregar unos puntos a la izquierda para tomar el elemento y moverlo a voluntad dentro de las distintas secciones
+*** Filtrado de datos
+    Se pueden filtrar por:
+    - completados
+    - activos
+    - Nivel de jerarquía
+
+** Secciones
+   ~ Sección de título
+   ~ Sección de agregado de elementos
+   ~ Sección de tareas tipo A, solo 3
+   ~ Sección de tareas tipo B, no tan importantes
+   ~ Sección de tareas tipo C, wishList pueden no hacerse
+   ~ Sección de tareas tipo D, delegar
+   ~ Sección de tareas tipo E, eliminar
