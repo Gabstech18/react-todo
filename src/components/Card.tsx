@@ -5,9 +5,6 @@ import Item_list from "./Item_list";
 const Card = () => {
   return (
     <>
-      <div className="card-header">
-        <p>Hello</p>
-      </div>
       <div className="card-title">
         <h1>To Do Today</h1>
       </div>
@@ -35,7 +32,10 @@ const Card = () => {
           name="item"
           placeholder="Add a new item"
         />
-        <select name="item-priority" id="item-priority">
+        <select
+          name="card-item-priority-selector"
+          id="card-item-priority-selector"
+        >
           <option value="A">A</option>
           <option value="B">B</option>
           <option value="C">C</option>
