@@ -1,5 +1,7 @@
 //import "./Card.css";
 
+import Item_list from "./Item_list";
+
 const Card = () => {
   return (
     <>
@@ -20,6 +22,10 @@ const Card = () => {
 
       <div className="card-items">
         {/* Aquí puedes agregar la lógica para mostrar los ítems */}
+        <Item_list />
+        <Item_list />
+        <Item_list />
+        <Item_list />
       </div>
 
       <div className="card-item-creator">
