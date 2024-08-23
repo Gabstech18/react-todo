@@ -4,6 +4,7 @@ const Item_list = () => {
       <span>&#x22EE;</span>
       <input type="checkbox"></input>
       <p>hello</p>
+      <p className="hola">A</p>
     </div>
   );
 };
