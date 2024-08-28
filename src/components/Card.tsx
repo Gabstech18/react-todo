@@ -6,10 +6,10 @@ import Item_list from "./Item_list";
 const Card = () => {
   //Functionality
   const [itemContent, setItemContent] = useState([]);
-  const handleItemContent = () => {
-    const useContent = [...itemContent, []];
-    setItemContent(useContent);
-  };
+
+  function handleAddItem() { }
+  function handleChangeItem() { }
+  function handleDeleteItem() { }
 
   //Elements
   return (
@@ -27,11 +27,8 @@ const Card = () => {
       </div>
 
       <div className="card-items">
-        {/* Aquí puedes agregar la lógica para mostrar los ítems */}
-        <Item_list>Hola 1</Item_list>
-        <Item_list>Hola 2</Item_list>
-        <Item_list>Hola 3</Item_list>
-        <Item_list>Hola 4</Item_list>
+        {}
+        <Item_list content={"itemContent"} category="a" />
       </div>
 
       <div className="card-item-creator">
@@ -51,7 +48,7 @@ const Card = () => {
           <option value="D">D</option>
           <option value="E">E</option>
         </select>
-        <button>Add</button>
+        <button onClick={handleAddItem}>Add</button>
       </div>
     </>
   );
