@@ -1,8 +1,17 @@
 //import "./Card.css";
 
+import { useState } from "react";
 import Item_list from "./Item_list";
 
 const Card = () => {
+  //Functionality
+  const [itemContent, setItemContent] = useState([]);
+  const handleItemContent = () => {
+    const useContent = [...itemContent, []];
+    setItemContent(useContent);
+  };
+
+  //Elements
   return (
     <>
       <div className="card-title">
@@ -19,10 +28,10 @@ const Card = () => {
 
       <div className="card-items">
         {/* Aquí puedes agregar la lógica para mostrar los ítems */}
-        <Item_list />
-        <Item_list />
-        <Item_list />
-        <Item_list />
+        <Item_list>Hola 1</Item_list>
+        <Item_list>Hola 2</Item_list>
+        <Item_list>Hola 3</Item_list>
+        <Item_list>Hola 4</Item_list>
       </div>
 
       <div className="card-item-creator">
