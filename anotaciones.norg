@@ -27,3 +27,24 @@
    ~ Sección de tareas tipo C, wishList pueden no hacerse
    ~ Sección de tareas tipo D, delegar
    ~ Sección de tareas tipo E, eliminar
+
+* Algunos pasos a seguir
+** Persistencia de Datos:
+   Backend y Base de Datos: Decide qué tipo de backend usar (por ejemplo, Node.js con Express, Django, Ruby on Rails) y qué base de datos (por ejemplo, MongoDB, PostgreSQL, MySQL). Implementa endpoints para crear, leer, actualizar y eliminar elementos de la lista.
+   Integración: Usa una librería como axios o fetch en tu frontend para hacer solicitudes HTTP a tu backend y gestionar los datos de la lista. Asegúrate de manejar los datos correctamente para que el estado de tu aplicación refleje los datos almacenados en la base de datos.
+
+** Mover Elementos en la Lista:
+   Drag and Drop: Implementa la funcionalidad de arrastrar y soltar utilizando librerías como react-beautiful-dnd o react-dnd. Estas librerías te permiten agregar funcionalidades de arrastrar y soltar a tus elementos de la lista.
+   Ordenación: Actualiza el orden de los elementos en el estado local y guarda el nuevo orden en la base de datos. Cuando un elemento se mueve, deberás actualizar el orden de los elementos en la base de datos para que persista el nuevo orden.
+
+** Actualización en la Interfaz de Usuario:
+   Estado Local: Mantén el estado local en tu componente para gestionar los elementos de la lista y sus posiciones. Cuando se mueve un elemento, actualiza el estado local y luego sincroniza los cambios con la base de datos.
+   UI/UX: Asegúrate de que la interfaz de usuario sea intuitiva y que el feedback para las acciones de mover elementos sea claro.
+
+** Interacción de Usuario:
+   Eventos de Arrastrar y Soltar: Añade eventos de arrastrar y soltar a los elementos de la lista para que los usuarios puedan mover los elementos fácilmente.
+   Persistencia de Cambios: Después de mover un elemento, asegúrate de que los cambios se guarden automáticamente en la base de datos y actualiza el estado local de la aplicación en consecuencia.
+
+** Estructura del Código:
+   Componentes: Separa la lógica de la lista y los elementos en componentes individuales si aún no lo has hecho. Esto facilitará la gestión de eventos y el estado de cada elemento de la lista.
+   Hooks: Utiliza hooks como useEffect para sincronizar el estado de la aplicación con la base de datos y useState para gestionar el estado local de los elementos de la lista.
