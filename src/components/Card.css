@@ -1,0 +1,44 @@
+:root {
+  --main-width: 80vw;
+  --max-width: 1200px;
+  --padding: 20px;
+}
+
+.card-title {
+  background-color: #4caf50;
+  padding: var(--padding);
+  text-align: center;
+  color: white;
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1px;
+}
+
+.card-quote {
+  position: relative;
+  margin: 20px auto;
+  padding: var(--padding);
+  max-width: 600px;
+  background-color: #fff;
+  border-left: 20px solid #333;
+  font-style: italic;
+  color: #555;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.quote p {
+  margin: 0;
+}
+
+.quote-author {
+  margin-top: 10px;
+  text-align: right;
+  font-size: 0.9em;
+  color: #888;
+}

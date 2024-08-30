@@ -1,7 +1,6 @@
-//import "./Card.css";
-
 import { useState } from "react";
 import Item_list from "./Item_list";
+import "./Card.css";
 
 const Card = () => {
   //Functionality
@@ -15,7 +14,7 @@ const Card = () => {
   return (
     <>
       <div className="card-title">
-        <h1>To Do Today</h1>
+        <h1 className="title">To Do Today</h1>
       </div>
 
       <div className="card-quote">
@@ -23,7 +22,7 @@ const Card = () => {
           Give me six hours to chop down a tree and I will spend the first four
           sharpening the axe.
         </p>
-        <p className="quote-author">Abraham Lincoln</p>
+        <p className="quote-author">- Abraham Lincoln</p>
       </div>
 
       <div className="card-items">
