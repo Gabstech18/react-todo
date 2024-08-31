@@ -1,0 +1,47 @@
+.card-item {
+  display: flex;
+  padding: 1em;
+  margin: 1em 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-item-content {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.card-item-interactions {
+  display: flex;
+  gap: 0.7em;
+  align-items: center;
+}
+
+.card-item-interactions .fa-icon {
+  color: #333;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.card-item-interactions .fa-icon:hover {
+  color: #007bff;
+}
+
+.card-item-interactions input[type="checkbox"] {
+  accent-color: #007bff;
+  cursor: pointer;
+}
+
+.card-item p {
+  margin: 0;
+  font-size: 1em;
+}
+
+.card-item-category {
+  font-weight: bold;
+  color: #555;
+}

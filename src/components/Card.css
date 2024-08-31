@@ -42,3 +42,11 @@
   font-size: 0.9em;
   color: #888;
 }
+
+.card-items-wrapper {
+  border-radius: 18px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  justify-content: space-between;
+  align-items: center;
+}

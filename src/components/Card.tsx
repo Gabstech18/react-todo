@@ -25,8 +25,11 @@ const Card = () => {
         <p className="quote-author">- Abraham Lincoln</p>
       </div>
 
-      <div className="card-items">
+      <div className="card-items-wrapper">
         {}
+        <Item_list content={"itemContent"} category="a" />
+        <Item_list content={"itemContent"} category="a" />
+        <Item_list content={"itemContent"} category="a" />
         <Item_list content={"itemContent"} category="a" />
       </div>
 
