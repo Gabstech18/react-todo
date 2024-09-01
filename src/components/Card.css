@@ -4,11 +4,17 @@
   --padding: 20px;
 }
 
+.card-container{
+  padding: var(--padding);
+}
+
 .card-title {
   background-color: #4caf50;
   padding: var(--padding);
   text-align: center;
   color: white;
+  border-radius: 5px;
+  border-left: 2px solid #333;
 }
 
 .title {
@@ -25,7 +31,8 @@
   padding: var(--padding);
   max-width: 600px;
   background-color: #fff;
-  border-left: 20px solid #333;
+  border-left: 5px solid #333;
+  border-radius: 5px;
   font-style: italic;
   color: #555;
   font-size: 1.2em;
@@ -44,9 +51,22 @@
 }
 
 .card-items-wrapper {
-  border-radius: 18px;
   background-color: #f9f9f9;
+  border-radius: 5px;
+  border: 1px solid #333;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   justify-content: space-between;
   align-items: center;
+  padding: var(--padding);
+}
+
+
+.card-item-creator{
+  margin-top: 2em;
+  display:flex;
+  background-color: #4caf50;
+  height: 2em;
+  padding: 1em;
+  border-radius: 5px;
+  border-left: 2px solid #333;
 }

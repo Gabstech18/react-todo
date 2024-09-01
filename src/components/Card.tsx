@@ -12,7 +12,7 @@ const Card = () => {
 
   //Elements
   return (
-    <>
+    <div className="card-container">
       <div className="card-title">
         <h1 className="title">To Do Today</h1>
       </div>
@@ -52,7 +52,7 @@ const Card = () => {
         </select>
         <button onClick={handleAddItem}>Add</button>
       </div>
-    </>
+    </div>
   );
 };
 
