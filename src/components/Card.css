@@ -4,7 +4,7 @@
   --padding: 20px;
 }
 
-.card-container{
+.card-container {
   padding: var(--padding);
 }
 
@@ -50,6 +50,16 @@
   color: #888;
 }
 
+.card-item-creator {
+  margin: 10px 0;
+  display: flex;
+  background-color: #4caf50;
+  height: 2em;
+  padding: 1em;
+  border-radius: 5px;
+  border-left: 2px solid #333;
+}
+
 .card-items-wrapper {
   background-color: #f9f9f9;
   border-radius: 5px;
@@ -58,15 +68,4 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--padding);
-}
-
-
-.card-item-creator{
-  margin-top: 2em;
-  display:flex;
-  background-color: #4caf50;
-  height: 2em;
-  padding: 1em;
-  border-radius: 5px;
-  border-left: 2px solid #333;
 }
